@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="shortcut icon"
+            href="./assets/icons/favicon.ico"
+            type="image/ico"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Weather Sounds</title>
+    </head>
+    <body class="body">
+        <div class="header">Weather sounds</div>
+        <div class="btn-panel">
+            <div class="summer-btn">
+                <div class="summer-btn__icon">
+                    <img src="./assets/icons/sun.svg" alt="sun_logo" />
+                </div>
+            </div>
+            <div class="rain-btn">
+                <div class="rain-btn__icon">
+                    <img src="./assets/icons/cloud-rain.svg" alt="rain_logo" />
+                </div>
+            </div>
+            <div class="winter-btn">
+                <div class="winter-btn__icon">
+                    <img src="./assets/icons/cloud-snow.svg" alt="snow_logo" />
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <figure>
+                <figcaption></figcaption>
+                <audio class="audio-sound" src="./assets/sounds/summer.mp3">
+                    Ваш браузер не поддерживает встроенное аудио.
+                </audio>
+                <input
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.01"
+                    title="Громкость"
+                    class="audio-volume"
+                />
+            </figure>
+        </div>
+        <script defer src="./app.js"></script>
+    </body>
+</html>

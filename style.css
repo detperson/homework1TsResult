@@ -1,0 +1,79 @@
+.body {
+    font-family: "Roboto", "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: url(./assets/summer-bg.jpg) no-repeat center / cover;
+    backdrop-filter: blur(3px);
+}
+.header {
+    font-size: 50px;
+    font-weight: 500;
+    color: orange;
+    text-align: center;
+}
+.btn-panel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn-panel img {
+    width: 40px;
+    height: 40px;
+}
+.winter-btn {
+    background: url("./assets/winter-bg.jpg");
+    background-size: cover;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.winter-btn__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.summer-btn {
+    background: url("./assets/summer-bg.jpg");
+    background-size: cover;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.summer-btn__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.rain-btn {
+    background: url("./assets/rainy-bg.jpg");
+    background-size: cover;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.rain-btn__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.music-player {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.audio-volume {
+    cursor: pointer;
+}
